@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8844033583978214815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3109312196023586737}
+  - component: {fileID: 8354047905737674784}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3109312196023586737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8844033583978214815}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8354047905737674784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8844033583978214815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64daa74a10220f94c885264c3f295e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerFootstep:
+  - {fileID: 8300000, guid: 320f14e84b5acd04181e250e9b389e66, type: 3}
+  - {fileID: 8300000, guid: 7d1dcadfc663cef45a9d6737ea40f63b, type: 3}
+  - {fileID: 8300000, guid: 4b8ace35f7d555240b2928734b8879af, type: 3}
+  - {fileID: 8300000, guid: bfe299d2b9cd4d04b9c96aca1355a211, type: 3}
+  - {fileID: 8300000, guid: 5c1169ea7d811f042ab242f4dd9d53cb, type: 3}
+  - {fileID: 8300000, guid: e2486ec4d0e95b542bb9df1486109aa6, type: 3}
+  - {fileID: 8300000, guid: c60f9dcdc4a14204d88131e9dc9ac6b1, type: 3}
+  - {fileID: 8300000, guid: fc519f63d0f12864eaf9745f87bd208b, type: 3}
+  zombieFootstep:
+  - {fileID: 8300000, guid: 42b11cd7e636a3740986839a23fd105c, type: 3}
+  - {fileID: 8300000, guid: 78b16d7f1fdd2834eba99934b79ed413, type: 3}
+  - {fileID: 8300000, guid: 79de4920e48f91844b690531e20862df, type: 3}
+  - {fileID: 8300000, guid: a27b84c53da17bb42ac9e1d77ccc916f, type: 3}
+  - {fileID: 8300000, guid: 0c81ccce689c63b4aaada6cc3588e127, type: 3}
+  - {fileID: 8300000, guid: 1588c50e1311fc845937f5e8670fe50b, type: 3}
+  - {fileID: 8300000, guid: ea4dfba94376cae409e853ca49ee8d4e, type: 3}
+  - {fileID: 8300000, guid: f7c4004bb125f0e44a5dfcf072a0e11c, type: 3}
+  - {fileID: 8300000, guid: fcc80e17395a67d4c90f29b70886cfde, type: 3}
+  zombieGrunt:
+  - {fileID: 8300000, guid: 9fe010b0bc27b2345b7877849c3afb15, type: 3}
+  - {fileID: 8300000, guid: 6e993e627aada6e4298b4f08a729218f, type: 3}
+  - {fileID: 8300000, guid: 079ddefea9108554c8f7ddb638b64db6, type: 3}
+  - {fileID: 8300000, guid: 431618f3db702604084b2b3fefb10bba, type: 3}
+  - {fileID: 8300000, guid: ae29b6c9e3e84b64485c83f196f20c28, type: 3}
+  - {fileID: 8300000, guid: 62c2d4aaf079cb9449a45806ccec01c4, type: 3}
+  - {fileID: 8300000, guid: 291ac8190d6d9cc459f5718aa73c296c, type: 3}
+  - {fileID: 8300000, guid: 4fc94189825970e4eb9922d4cebe7dc3, type: 3}
+  - {fileID: 8300000, guid: 65171a5cd4832984db0acefcbb98f5ad, type: 3}
+  - {fileID: 8300000, guid: dcc618f03230c5c44ac04e071f6c8581, type: 3}
+  zombieHurt:
+  - {fileID: 8300000, guid: 654f6b24939244844802689d7858c38b, type: 3}
+  - {fileID: 8300000, guid: 8302a382a0bfeed40919abff5f18b98a, type: 3}
+  - {fileID: 8300000, guid: e6b984f01d2bb6847a2cf8bef482ae7f, type: 3}
+  - {fileID: 8300000, guid: 60a48c29de8a89b48bc6507807ff842d, type: 3}
+  - {fileID: 8300000, guid: e99a205e7bdb2d1478ec8d77792784ef, type: 3}
+  - {fileID: 8300000, guid: ec58d33882a51a949bab70019d8ec42f, type: 3}
+  - {fileID: 8300000, guid: 88f46638d5f890441b8f3a1def2fb972, type: 3}
+  - {fileID: 8300000, guid: a307d401e95891f4fbf509973705d8a6, type: 3}
+  - {fileID: 8300000, guid: da193ac5c61eb624799a2b0ae37b1c77, type: 3}
+  - {fileID: 8300000, guid: c0f5efd41be12234cbe5baff5c7e5a02, type: 3}
+  zombiePunch:
+  - {fileID: 8300000, guid: aaca831b0f470364893b16f5d8d297f0, type: 3}
+  - {fileID: 8300000, guid: cf47e15652b8b99479cf8e5ae9f27d18, type: 3}
+  - {fileID: 8300000, guid: b49e3a3fcf351514d82a98877282c9bf, type: 3}
+  - {fileID: 8300000, guid: 819d1fe912341ff488cc48fe3343d462, type: 3}
+  - {fileID: 8300000, guid: 4688c7542757c5e4888f3df7f61e9c25, type: 3}
+  weaponBlock:
+  - {fileID: 8300000, guid: f0d7e05b30618eb4c918a40bf85ffa84, type: 3}
+  - {fileID: 8300000, guid: d7ce58793a1fded48953772203863c6e, type: 3}
+  - {fileID: 8300000, guid: 9494d91aea42d9446a283c8b90e654cf, type: 3}
+  - {fileID: 8300000, guid: 8c396ccebf3a1ff4e9013fa027f03907, type: 3}
+  - {fileID: 8300000, guid: 03bdedf8aa3781a42813187057d29b40, type: 3}
+  weaponHitStrong:
+  - {fileID: 8300000, guid: 36257f32ff3a4bc4385da1ef9d76e3d6, type: 3}
+  - {fileID: 8300000, guid: b05edfbb4337fed48934034f019a3bae, type: 3}
+  - {fileID: 8300000, guid: c5db8318b78d5464a9479092991e2b9b, type: 3}
+  weaponHitMedium:
+  - {fileID: 8300000, guid: ad60f38957423ff4eaf060496123a691, type: 3}
+  - {fileID: 8300000, guid: 190913496dec41f4f85f6ea7c572d107, type: 3}
+  - {fileID: 8300000, guid: 946b1bcccedcb3e47b57d9a6f9afefcf, type: 3}
+  weaponHitWeak:
+  - {fileID: 8300000, guid: 05172ebd57182804ba0039805e3dc47f, type: 3}
+  - {fileID: 8300000, guid: 1e3aa386a6867d84db6d56f58547c8dc, type: 3}
+  - {fileID: 8300000, guid: dcdc9c16ce556444d95d27ab57f48086, type: 3}
+  tennisRacket: []

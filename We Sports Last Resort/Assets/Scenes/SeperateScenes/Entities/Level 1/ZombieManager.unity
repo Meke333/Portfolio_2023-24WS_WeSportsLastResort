@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.45140016, g: 0.50089306, b: 0.57231736, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &991486050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 991486051}
+  - component: {fileID: 991486052}
+  - component: {fileID: 991486053}
+  m_Layer: 0
+  m_Name: Enemy Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &991486051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991486050}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &991486052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991486050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c823ee9fda6f7a0478e96019d0f44848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyType: 1
+  enemyCount: 12
+  zombiePrefab: {fileID: 2720942267765638708, guid: a9e4005bef2cb3a469d9523e2e2d955f, type: 3}
+  TestingRespawnVariables:
+    Transform: {fileID: 1107159612}
+    EnemyHealth: 15
+    MoveSpeed: 10
+    Name: Henry
+    GuardDirection: 0
+  names:
+  - name: Jeff
+    isUsedAlready: 0
+  - name: Jacob
+    isUsedAlready: 0
+  - name: Brian
+    isUsedAlready: 0
+  - name: Kys
+    isUsedAlready: 0
+  - name: HEEEAAAALLP
+    isUsedAlready: 0
+  - name: AAAAAAAAAAAAAAAAAAAA
+    isUsedAlready: 0
+  - name: NOOOOOOOOOOOO
+    isUsedAlready: 0
+  - name: DONT IGNORE ME >:c
+    isUsedAlready: 0
+  - name: Dunce
+    isUsedAlready: 0
+  - name: Jeffew
+    isUsedAlready: 0
+  - name: Zombie 001
+    isUsedAlready: 0
+  - name: Zombie 002
+    isUsedAlready: 0
+  - name: Zombie 002.5
+    isUsedAlready: 0
+  - name: Mike
+    isUsedAlready: 0
+  - name: Lua
+    isUsedAlready: 0
+  - name: Annabelle
+    isUsedAlready: 0
+  - name: Alessia
+    isUsedAlready: 0
+  - name: Sven
+    isUsedAlready: 0
+  - name: Lukas
+    isUsedAlready: 0
+  - name: Alec
+    isUsedAlready: 0
+  - name: Ken
+    isUsedAlready: 0
+  - name: Marlene
+    isUsedAlready: 0
+  - name: Detlef
+    isUsedAlready: 0
+  - name: Jef
+    isUsedAlready: 0
+  - name: Rob
+    isUsedAlready: 0
+  - name: Chad
+    isUsedAlready: 0
+  - name: ZombieMinion243.a
+    isUsedAlready: 0
+  - name: Patrick
+    isUsedAlready: 0
+  - name: Jorin
+    isUsedAlready: 0
+  - name: Caroline
+    isUsedAlready: 0
+  - name: Sarah
+    isUsedAlready: 0
+  - name: Scott
+    isUsedAlready: 0
+  - name: Peter
+    isUsedAlready: 0
+  - name: Rasputin
+    isUsedAlready: 0
+  - name: Sigfried
+    isUsedAlready: 0
+  - name: Brunhilde
+    isUsedAlready: 0
+  - name: Till
+    isUsedAlready: 0
+  - name: Renee
+    isUsedAlready: 0
+  - name: "M\xE4x"
+    isUsedAlready: 0
+  - name: Markus
+    isUsedAlready: 0
+  - name: Martin
+    isUsedAlready: 0
+  - name: Will
+    isUsedAlready: 0
+  - name: Mara
+    isUsedAlready: 0
+  - name: Lio
+    isUsedAlready: 0
+  - name: Josiane
+    isUsedAlready: 0
+  - name: Mark
+    isUsedAlready: 0
+  - name: Moritz
+    isUsedAlready: 0
+  - name: Nasty
+    isUsedAlready: 0
+  - name: Ceydar
+    isUsedAlready: 0
+  - name: Nancy
+    isUsedAlready: 0
+  - name: Jeff (Bezos)
+    isUsedAlready: 0
+  - name: Elias
+    isUsedAlready: 0
+  - name: Ninami
+    isUsedAlready: 0
+  - name: Oscar
+    isUsedAlready: 0
+  - name: Meek
+    isUsedAlready: 0
+  - name: Schnitzler
+    isUsedAlready: 0
+  - name: Boris
+    isUsedAlready: 0
+  - name: Alex
+    isUsedAlready: 0
+  - name: Manfred
+    isUsedAlready: 0
+  - name: Mau
+    isUsedAlready: 0
+  - name: Derek
+    isUsedAlready: 0
+  - name: Sophia
+    isUsedAlready: 0
+  - name: Julien
+    isUsedAlready: 0
+  - name: Leon
+    isUsedAlready: 0
+  - name: Ashley
+    isUsedAlready: 0
+  - name: Chris
+    isUsedAlready: 0
+  - name: Link
+    isUsedAlready: 0
+  - name: Gisela
+    isUsedAlready: 0
+  - name: Gloria
+    isUsedAlready: 0
+  - name: Preston
+    isUsedAlready: 0
+  - name: Major Hurdle
+    isUsedAlready: 0
+  - name: Gandalf
+    isUsedAlready: 0
+  - name: Frodo
+    isUsedAlready: 0
+  - name: Ford
+    isUsedAlready: 0
+  - name: Zaphod
+    isUsedAlready: 0
+  - name: Marvin
+    isUsedAlready: 0
+  - name: Meatball
+    isUsedAlready: 0
+  - name: Noa
+    isUsedAlready: 0
+  - name: Jenny
+    isUsedAlready: 0
+  - name: King
+    isUsedAlready: 0
+  - name: Arthur
+    isUsedAlready: 0
+  - name: Clark
+    isUsedAlready: 0
+  - name: Stiles
+    isUsedAlready: 0
+  - name: Edge Sheeran
+    isUsedAlready: 0
+  - name: Betonia
+    isUsedAlready: 0
+  - name: Lemnard
+    isUsedAlready: 0
+  - name: Mustard
+    isUsedAlready: 0
+  - name: Beatrice
+    isUsedAlready: 0
+  - name: John
+    isUsedAlready: 0
+  - name: Cena
+    isUsedAlready: 0
+  - name: Johnny
+    isUsedAlready: 0
+  - name: Bravo
+    isUsedAlready: 0
+  - name: Clemens
+    isUsedAlready: 0
+  - name: Pepe
+    isUsedAlready: 0
+  - name: Claudia
+    isUsedAlready: 0
+  - name: Big Joe
+    isUsedAlready: 0
+  - name: Focaccia
+    isUsedAlready: 0
+  - name: Giselle
+    isUsedAlready: 0
+  - name: Tristan
+    isUsedAlready: 0
+  - name: Perry
+    isUsedAlready: 0
+  - name: Karen
+    isUsedAlready: 0
+  - name: Brenda
+    isUsedAlready: 0
+  - name: Trenton
+    isUsedAlready: 0
+  - name: Ethan
+    isUsedAlready: 0
+  - name: Trevor
+    isUsedAlready: 0
+  - name: Hunter
+    isUsedAlready: 0
+  - name: Craig
+    isUsedAlready: 0
+  - name: Colette
+    isUsedAlready: 0
+  - name: Snickers
+    isUsedAlready: 0
+  - name: Macron
+    isUsedAlready: 0
+  - name: Mickey
+    isUsedAlready: 0
+  - name: Mabel
+    isUsedAlready: 0
+  - name: Stan
+    isUsedAlready: 0
+--- !u!114 &991486053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991486050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e30a949af2236854d891f32ed5d6c600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackAnimations:
+  - attackType: 1
+    windUp_AttackAnimation: {fileID: 7400000, guid: e4977b94c6c33d249bbc9b9f36f42e08, type: 2}
+    attack_AttackAnimation: {fileID: 7400000, guid: 404c9bb8b7fffe84790e0e095d460d16, type: 2}
+    hitbox_AttackAnimation: {fileID: 7400000, guid: dffd7797001e77d40b1f3a09f152e860, type: 2}
+    recovery_AttackAnimation: {fileID: 7400000, guid: 2efddb8abc7e83644a407977c6917c06, type: 2}
+    windUp_frames: 0
+    attack_frames: 0
+    hitbox_frames: 0
+    recovery_frames: 0
+    windUp_time: 0
+    attack_time: 0
+    hitbox_time: 0
+    recovery_time: 0
+  - attackType: 2
+    windUp_AttackAnimation: {fileID: 7400000, guid: fb3eef1dffd346843b5317e9fe2dedf2, type: 2}
+    attack_AttackAnimation: {fileID: 7400000, guid: bf6d3853749e3f5438b9538ef414ce2a, type: 2}
+    hitbox_AttackAnimation: {fileID: 7400000, guid: f6083dbe20d4a8245ad5a9aa3c2f75d4, type: 2}
+    recovery_AttackAnimation: {fileID: 7400000, guid: ecc04fac1b9198345a51bdbfe7c5880c, type: 2}
+    windUp_frames: 0
+    attack_frames: 0
+    hitbox_frames: 0
+    recovery_frames: 0
+    windUp_time: 0
+    attack_time: 0
+    hitbox_time: 0
+    recovery_time: 0
+  - attackType: 3
+    windUp_AttackAnimation: {fileID: 7400000, guid: ad428deb058c3544998bbad2e7a41fd3, type: 2}
+    attack_AttackAnimation: {fileID: 7400000, guid: 7c6f1bc0e0f03a84c98a3eb081c9c74b, type: 2}
+    hitbox_AttackAnimation: {fileID: 7400000, guid: 0d8fd422fcef08343a61ffc4b593ed93, type: 2}
+    recovery_AttackAnimation: {fileID: 7400000, guid: a78fc757534a165458a7d1383e4203e2, type: 2}
+    windUp_frames: 0
+    attack_frames: 0
+    hitbox_frames: 0
+    recovery_frames: 0
+    windUp_time: 0
+    attack_time: 0
+    hitbox_time: 0
+    recovery_time: 0
+--- !u!1 &1107159611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107159612}
+  m_Layer: 0
+  m_Name: RespawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107159612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107159611}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 13.96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 991486051}
+  - {fileID: 1107159612}
