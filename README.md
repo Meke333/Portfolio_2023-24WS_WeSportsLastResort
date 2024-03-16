@@ -1,5 +1,5 @@
 We Sports: Last Resort
--by Mike Li, Alessia , Sven Bauer, Annabelle
+-by Mike Li, Alessia Brinkmann, Sven Bauer, Annabelle Räth
 -----------------------------
 #IMPORTANT: 
 This is only a showcase of my contributions (mainly code) and thereforethis repository has only a fraction of the full project. 
