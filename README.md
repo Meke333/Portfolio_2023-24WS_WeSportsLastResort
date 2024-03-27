@@ -29,13 +29,14 @@ There are prototype videos in 3), a walkthrough video in 2) and exhibition video
 Unfortunately the game is not really playable due to the fact that not only does it use Wii hardware, which is a pain to connect to
 a Windows PC (especially since Windows 11), but it also requires the old non Wii U Wii Motes (TR-... serialnumber). But if anyone wants
 to try to make it work: There is a step by step guide in the root folder of the repository and a link in 6).
+
   
 #Roles:
-Alessia Brinkmann: 	Vision Keeper, 3D Asset Creator
-Sven Bauer: 		Technical Artist (Rigging, Ragdoll Setup), Animations
-Annabelle Räth: 	Production Manager, Sound Manager, Texturing, Level Designer
-Paul Meyer: 		Audio Production, Audio Implementation
-Lucas Gitzinger:	Audio Production
+- Alessia Brinkmann: 	Vision Keeper, 3D Asset Creator
+- Sven Bauer: 		Technical Artist (Rigging, Ragdoll Setup), Animations
+- Annabelle Räth: 	Production Manager, Sound Manager, Texturing, Level Designer
+- Paul Meyer: 		Audio Production, Audio Implementation
+- Lucas Gitzinger:	Audio Production
 
 
 #My Contribution:
