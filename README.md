@@ -1,5 +1,5 @@
 We Sports: Last Resort
--by Mike Li, Alessia Brinkmann, Sven Bauer, Annabelle Räth
+-by Mike Li, Alessia Brinkmann, Sven Bauer, Annabelle Räth, Paul Meyer, Lucas Gitzinger
 -----------------------------
 #IMPORTANT: 
 This is only a showcase of my contributions (mainly code) and thereforethis repository has only a fraction of the full project. 
@@ -30,6 +30,13 @@ Unfortunately the game is not really playable due to the fact that not only does
 a Windows PC (especially since Windows 11), but it also requires the old non Wii U Wii Motes (TR-... serialnumber). But if anyone wants
 to try to make it work: There is a step by step guide in the root folder of the repository and a link in 6).
   
+#Roles:
+Alessia Brinkmann: 	Vision Keeper, 3D Asset Creator
+Sven Bauer: 		Technical Artist (Rigging, Ragdoll Setup), Animations
+Annabelle Räth: 	Production Manager, Sound Manager, Texturing, Level Designer
+Paul Meyer: 		Audio Production, Audio Implementation
+Lucas Gitzinger:	Audio Production
+
 
 #My Contribution:
 Roles in the project:
